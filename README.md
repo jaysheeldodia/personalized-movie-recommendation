@@ -72,8 +72,8 @@ streamlit run app.py
 
 ## 📄 Demo Screenshots
 
-> ![Recommendations based on watch](Screenshot\Screenshot-1.png "Based on Watched")
-> ![Recommendations based on likes](Screenshot\Screenshot-2.png "Based on Liked")
+> ![Recommendations based on watch](Screenshot/Screenshot-1.png)
+> ![Recommendations based on likes](Screenshot/Screenshot-2.png)
 
 ---
 
