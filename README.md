@@ -31,7 +31,8 @@
 flixfusion/
 ├── app.py                  # Streamlit UI
 ├── hybrid.py               # Hybrid recommendation logic
-├── svd_model.pkl           # Trained collaborative filtering model
+├── model/
+│   ├── svd_model.pkl           # Trained collaborative filtering model
 ├── data/
 │   ├── movies.dat
 │   ├── ratings.dat

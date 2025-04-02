@@ -6,7 +6,7 @@ import pickle
 movies_data = pd.read_csv("data/movies.dat", sep="::", engine="python", encoding="latin-1", names=["MovieID", "Title", "Genres"])
 ratings_data = pd.read_csv("data/ratings.dat", sep="::", engine="python", encoding="latin-1", names=["UserID", "MovieID", "Rating", "Timestamp"])
 
-with open("svd_model.pkl", "rb") as f:
+with open("model/svd_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 movie_id_to_title = dict(zip(movies_data['MovieID'], movies_data['Title']))
